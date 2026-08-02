@@ -1,0 +1,331 @@
+/* ==========================
+   Laptop (992px - 1199px)
+========================== */
+@media (max-width:1199px){
+
+.topbar_lft ul{
+    gap:8px;
+    font-size:14px;
+}
+
+.login_btn{
+    width:130px;
+    height:45px;
+    font-size:14px;
+}
+
+.carousel-item img{
+    height:500px;
+}
+
+.course-btn{
+    width:150px;
+    height:50px;
+}
+
+}
+
+
+/* ==========================
+   Tablet (768px - 991px)
+========================== */
+@media (max-width:991px){
+
+.top_header{
+    padding:10px 0;
+    height:auto;
+}
+
+.topbar_lft ul{
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    text-align:center;
+}
+
+.topbar_rgt{
+    flex-direction:column;
+    gap:15px;
+    margin-top:15px;
+}
+
+.navbar-brand img{
+    height:60px;
+}
+
+.navbar-collapse{
+    margin-top:15px;
+}
+
+.navbar-nav{
+    text-align:center;
+    gap:0 !important;
+}
+
+.navbar-nav .nav-link{
+    padding:12px;
+}
+
+.nav-item{
+    border-bottom:1px solid #ddd;
+}
+
+.dropdown-menu{
+    text-align:center;
+}
+
+.carousel-item img{
+    height:400px;
+}
+
+.course-card,
+.course-d{
+    margin-bottom:25px;
+}
+
+.top-footer{
+    padding:50px 0;
+}
+
+.top-footer .col-lg-8{
+    padding:40px 25px;
+}
+
+.top-footer-left iframe{
+    height:400px;
+}
+
+.top-footer h2{
+    margin-top:30px;
+}
+
+.subscribe input{
+    width:100%;
+}
+
+footer p{
+    text-align:center;
+    font-size:14px;
+}
+
+}
+
+
+/* ==========================
+   Mobile (576px - 767px)
+========================== */
+@media (max-width:767px){
+
+.top_header{
+    padding:15px 0;
+}
+
+.topbar_lft ul{
+    flex-direction:column;
+    text-align:center;
+}
+
+.topbar_lft li{
+    width:100%;
+}
+
+.topbar_lft span{
+    display:block;
+}
+
+.topbar_rgt{
+    flex-direction:column;
+    gap:15px;
+}
+
+.social_icon ul{
+    justify-content:center;
+}
+
+.login_btn{
+    width:170px;
+}
+
+.navbar-brand img{
+    height:50px;
+}
+
+.carousel-item img{
+    height:250px;
+}
+
+.heading p{
+    font-size:28px !important;
+    text-align:center;
+}
+
+.course-btn{
+    width:150px;
+    height:50px;
+    font-size:15px;
+}
+
+.course-d img{
+    width:80px;
+    height:80px;
+}
+
+.course-d p{
+    text-align:left;
+}
+
+.whatsapp{
+    right:15px;
+    bottom:15px;
+}
+
+.whatsapp i{
+    font-size:45px !important;
+}
+
+footer p{
+    font-size:13px;
+    text-align:center;
+}
+
+}
+
+
+/* ==========================
+   Small Mobile (0 - 575px)
+========================== */
+@media (max-width:575px){
+
+.navbar{
+    padding:10px 0;
+}
+
+.navbar-toggler{
+    padding:5px 8px;
+    border:1px solid #999;
+    box-shadow:none;
+}
+
+.bottom_head{
+    min-height:auto;
+}
+
+.navbar-brand img{
+    height:60px;
+    width:auto;
+}
+
+.navbar-nav .nav-link{
+    padding:15px 0;
+    font-size:20px;
+}
+
+.nav-item{
+    border-bottom:1px solid #ddd;
+}
+
+.dropdown-menu{
+    border:none;
+    text-align:center;
+}
+
+.container{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.top_header{
+    padding:10px 0;
+}
+
+.topbar_lft ul{
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+.topbar_lft li{
+    text-align:center;
+    line-height:1.4;
+}
+
+.topbar_lft span{
+    display:inline;
+    font-size:16px;
+}
+
+.topbar_rgt{
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+.social_icon ul{
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.login_btn{
+    width:150px;
+    height:45px;
+    font-size:14px;
+}
+
+.carousel-item img{
+    height:180px;
+}
+
+.heading p{
+    font-size:24px !important;
+}
+
+.course-card img{
+    height:180px;
+}
+
+.course-card h5,
+.course-d h5{
+    font-size:20px;
+}
+
+.course-card p,
+.course-d p{
+    font-size:14px;
+}
+
+.course-btn{
+    width:140px;
+    height:45px;
+    font-size:14px;
+}
+
+.hr{
+    width:70px;
+}
+
+.top-footer h2{
+    font-size:20px;
+}
+
+.top-footer p,
+.top-footer span,
+.top-footer ul li a{
+    font-size:16px;
+    line-height:28px;
+}
+
+.subscribe{
+    flex-wrap:nowrap;
+}
+
+.subscribe input{
+    width:100%;
+}
+
+footer p{
+    font-size:12px;
+    line-height:22px;
+}
+
+}
