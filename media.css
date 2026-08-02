@@ -1,6 +1,5 @@
-/* ==========================
-   Laptop (992px - 1199px)
-========================== */
+/*  Laptop (992px - 1199px) */
+
 @media (max-width:1199px){
 
 .topbar_lft ul{
@@ -26,9 +25,8 @@
 }
 
 
-/* ==========================
-   Tablet (768px - 991px)
-========================== */
+/*Tablet (768px - 991px) */
+
 @media (max-width:991px){
 
 .top_header{
@@ -111,9 +109,8 @@ footer p{
 }
 
 
-/* ==========================
-   Mobile (576px - 767px)
-========================== */
+/*  Mobile (576px - 767px) */
+
 @media (max-width:767px){
 
 .top_header{
@@ -191,9 +188,8 @@ footer p{
 }
 
 
-/* ==========================
-   Small Mobile (0 - 575px)
-========================== */
+/* Small Mobile (0 - 575px) */
+
 @media (max-width:575px){
 
 .navbar{
